@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  background-color: #674baf;
+  background-image: url(./images/bg-mobile.svg);
+  background-position: left -0.01rem top -0.1rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+
+  font-family: "Open Sans", sans-serif;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.header {
+  margin: 0;
+}
+
+.wrapper {
+  width: 80%;
+  margin-left: 2rem;
+}
+
+.wrapper img {
+  max-height: 3rem;
+}
+
+.central {
+  text-align: center;
+  padding: 2rem 2rem;
+}
+
+.aside h1 {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.aside p {
+  color: #fff;
+
+  font-size: 1.2rem;
+}
+
+.btn {
+  outline: none;
+  border: none;
+  background-color: #fff;
+  color: #674baf;
+  border-radius: 2rem;
+  padding: 0.8rem 3.5rem;
+  font-weight: 400;
+  font-size: 1rem;
+  box-shadow: 0.15rem 0.2rem 0.15rem 0.2rem rgba(0, 0, 0, 0.2);
+  margin-bottom: 5rem;
+}
+
+.btn:hover {
+  background-color: #e882e8;
+  cursor: pointer;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  font-size: 1rem;
+  border: 0.01rem solid #fff;
+  padding: 0.7rem;
+  border-radius: 50%;
+  height: 1.1rem;
+  width: 1.1rem;
+  text-align: center;
+  color: #fff;
+  margin-right: 0.8rem;
+}
+
+.icon:hover {
+  border: 0.01rem solid #e882e8;
+  color: #e882e8;
+  cursor: pointer;
+}
+
+.Fo {
+  margin: 0;
+  padding: 0;
+}
+
+.attribution {
+  font-size: 0.688rem;
+  text-align: center;
+  color: #fff;
+}
+.attribution a {
+  color: #e882e8;
+}
+
+@media screen and (min-width: 42.375rem) {
+  body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    background-color: #674baf;
+    background-image: url(./images/bg-desktop.svg);
+    background-position: left -0.012rem top -0.1rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    font-family: "Open Sans", sans-serif;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 56.25rem) {
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .wrapper {
+    width: 80%;
+  }
+  .wrapper img {
+    max-height: 3rem;
+    margin-left: 3rem;
+    margin-top: 1.5rem;
+  }
+
+  .central {
+    display: flex;
+    justify-content: flex-start;
+    padding: 2rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
+  }
+  .main {
+    margin-right: 5rem;
+  }
+  .aside {
+    text-align: start;
+  }
+
+  .icons {
+    margin-left: 60rem;
+  }
+}
+
+@media screen and (min-width: 80.063rem) {
+  .central {
+    display: flex;
+    justify-content: center;
+  }
+}
